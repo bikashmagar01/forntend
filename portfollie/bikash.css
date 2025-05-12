@@ -1,0 +1,60 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    gap:2rem;
+    font-size: 20px;
+    font-weight: bold;
+list-style:none;
+}
+.first{
+    background-color: grey;
+    padding:45px;
+}
+nav ul a{
+color:blue;
+text-decoration: none;
+
+
+
+}
+nav ul a:hover{
+    color:red;
+
+    text-decoration: underline;
+}
+.name{
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:left;
+}
+.address{
+    display: flex;
+    color:blue;
+   justify-items: end;
+    text-align: bottom;
+    font-size: 15px;
+    gap:2rem;
+}
+.image{
+display:block;
+width: 100%;
+height: auto;
+}
+.section{
+    display: 100%;
+    background-color: purple;
+   
+    padding: 50px;
+}
+.me{
+   
+position: absolute;
+}
