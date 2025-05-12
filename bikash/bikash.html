@@ -5,12 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .new{
+            background-color: blue;
+            padding:100px;
+            border-radius: 20px;
+        }
+        input{
+            border-radius: 10px;
+            color:red;
+            height:25px;
+        }
+        button{
+            border-radius: 10px;
+            color:red;
+            height:30px;
+        }
+        .new2{
+            color:white;
+        }
+    </style>
 </head>
 <body>
-    <div> 
+    <div class="new"> 
     <input type="text" id="new">
     <button onclick="ram()">say hello to me...</button>
-    <div> 
+    <div class="new2"> 
 <p id="result"></p>
     </div>
     </div>
